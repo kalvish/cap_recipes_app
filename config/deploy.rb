@@ -9,7 +9,7 @@ load "config/recipes/rbenv"
 load "config/recipes/check"
 
 set :ssh_options, { keys: ["#{ENV['HOME']}/.ssh/fms_computer.pem"] }
-server "52.26.117.89", :web, :app, :db, primary: true
+server "54.68.24.25", :web, :app, :db, primary: true
 
 set :user, "ubuntu"
 set :application, "cap_recipes_app"
